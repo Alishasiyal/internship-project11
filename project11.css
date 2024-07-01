@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  position: relative;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: rgba(50, 60, 93, 0.25) 0px 13px 27px,
+    rgba(0, 0, 0, 0.1) 0px 8px 16px;
+}
+
+.quote-icon {
+  font-size: 2rem;
+  position: absolute;
+  left: 20px;
+  top: 14px;
+}
+
+.rating {
+  border: 2px solid black;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 36px;
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  background-color: white;
+  font-size: 1rem;
+}
+
+.img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.join {
+  color: white;
+  text-decoration: none;
+}
+
+.btn {
+  padding: 10px;
+  margin: 10px;
+}
+
+@media (max-width: 768px) {
+  .quote-icon {
+    font-size: 1.5rem;
+    left: 10px;
+    top: 10px;
+  }
+
+  .rating {
+    width: 30px;
+    height: 30px;
+    font-size: 0.75rem;
+    line-height: 26px;
+    right: 10px;
+    top: 10px;
+  }
+
+  .btn {
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  .social-icons a {
+    width: 30px;
+    height: 30px;
+    font-size: 1rem;
+  }
+}
